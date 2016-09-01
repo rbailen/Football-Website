@@ -1,0 +1,177 @@
+/* Contenedor de la página */
+.contenedor{font-size: 12px; font-family: Arial, sans-serif; color: #FFFFFF; background: #171717; text-align: left; position: relative; clear: both; width: 960px; margin: 0 auto; padding: 0px;}
+
+
+
+
+/* Cabecera */
+header{background-color: #000000; height: 250px; text-align:center;}
+.cabecera{position:relative; clear: both;}
+.cabecera img{width:40%; height: 250px;}
+
+
+
+
+/* Comunes en el diseño */
+a {color: #9FEA00; text-decoration: none;}
+.left { float: left; display: inline;} 
+* {padding: 0; margin: 0;}
+
+
+
+
+/* Sección 1 (index.html)*/
+#seccion1 {position: relative; height: 340px; background: url(../img/seccion1.jpg);}
+
+/* Menú de la sección 1 */
+#menu ul {list-style-type: none; width: 205px; padding-top: 9px; padding-left: 14px;}
+#menu ul li {padding-bottom:5px;}
+#menu ul li a {padding-left: 10px; padding-top: 5px; text-transform: uppercase; color: #636363; font-size: 11px; font-weight: bold;}
+#menu ul li .enlace {background: url(../img/caja-menu.png); background-repeat: no-repeat; height: 22px;}
+#menu ul li.marcado a {color: #7E6F3A;}
+#menu ul li a:hover {text-decoration: none; color: red;}
+
+/* Bienvenido y entrevistas de la sección 1 */
+#contenido-be {position: absolute; top: 9px; left: 232px; background: url(../img/caja-comodin.png); background-repeat: no-repeat; width: 710px; height: 320px; padding-top: 5px; padding-left: 4px;}
+
+/* Bienvenido */
+.bienvenido {position: relative; width: 440px; float: left;}
+.bienvenido img {border: 1px solid #000000; width: 440px; height: 310px;}
+.bienvenido h4 {font-size: 12px; color: #9FEA00;}
+.bienvenido p {color: #FFFFFF; font-size: 10px;}
+.info-bienvenido {width: 426px; height: 46px; padding-left: 10px; padding-top: 7px; padding-right: 5px; position: absolute; left: 0; top: 260px;}
+
+/* Entrevistas */
+.entrevistas {width: 260px; padding-left: 6px; float: left;}
+.num-entrevista {padding-right: 5px; padding-bottom: 10px;}
+.num-entrevista img {width: 70px; height: 70px; border: 1px solid #000; margin-right: 3px;}
+.num-entrevista h4 {font-size: 12px; color: #9FEA00;padding-top: 4px;}
+.num-entrevista p {color: #C9C9C9; font-size: 10px; text-align: justify;}
+
+
+
+
+/* Sección 2 (index.html) */
+#seccion2 {margin: 0 auto; width: 930px; padding-top: 8px;}
+#seccion2 h2 {color: #FFFFFF; font-size: 16px; text-transform: uppercase; padding-bottom: 2px;}
+
+/* Resultados y socios de la sección 2*/
+#datos {padding-top: 14px; width: 197px; padding-right: 20px; float: left;} 
+#datos ul {list-style-type: none; padding-bottom: 7px;}
+#datos .resultados ul li, .socios ul li {background: url(../img/linea-divisora.gif) repeat-x 0 bottom; padding-bottom: 5px; padding-top: 5px;}
+#datos ul li .date {color: #93DE3C; font-size: 9px;} 
+.socios ul li p{color: #9FEA00;}
+
+/* Fotografías y noticias de la sección 2*/
+#contenido-fotos-noticias {width: 713px; float: left;}
+a.boton {background: url(../img/boton.png); background-repeat: no-repeat; float: right; width: 81px;height: 16px; display: block; color: #373737; font-size: 10px; padding-top: 3px; text-align: center; text-transform: uppercase;}
+a.boton:hover {text-decoration: none; color: red;}
+
+/* Fotografías de la sección 2 */
+.fotos {background: url(../img/caja-fotos.gif); background-repeat: no-repeat; width: 209px; height: 228px; float: left; padding: 10px 26px 17px 8px;}
+.ultima {padding-right: 10px}
+.fotos h3 {font-size: 13px; color: #303235; text-transform: uppercase; padding-bottom: 8px;}
+.fotos img {width: 205px; height: 100px; border: 1px solid #cfcfcf; padding: 1px; margin-bottom: 6px;}
+.fotos p {color: #1F1F1F; width: 205px; text-align: justify;}
+.fotos p span {padding-bottom: 6px; display: block;}
+
+/* Noticias de la sección 2 */
+.colocacion-noticias {line-height: 0; clear: both;}
+.noticias {width: 690px; height: 190px; background: url(../img/caja-noticias.gif); background-repeat: no-repeat; padding-left: 10px; padding-top: 17px; padding-right: 13px; padding-bottom: 17px;}
+.noticias h2 {padding-bottom: 10px;}
+.not-izq {background: url(../img/noticias.gif); background-repeat: no-repeat; width: 332px; height: 60px; float: left; padding-top: 8px; padding-left: 6px; padding-right: 17px; padding-bottom: 15px;}
+.not-izq img {width: 90px; height: 50px; border: 3px solid #333; margin-right: 7px;}
+.not-izq p {color: #F9F9F9;}
+.not-der {padding-right: 5px; background: url(../img/noticias.gif); background-repeat: no-repeat; width: 324px;}
+
+
+
+
+/* Sección 3 (galeria.html)*/
+#seccion3 {position: relative; height: 1270px;}
+
+/* Galería de fotografías de la sección 3 */
+#contenido-galeria {position: absolute; top: 9px; left: 232px; background: url(../img/caja-comodin.png); background-repeat: no-repeat; background-size: 700px 1250px; width: 710px; height: 1250px; padding-top: 5px; padding-left: 4px;}
+#galeria img {padding-left: 23px; width: 310px; height: 150px;}
+#galeria h2{color: #7E6F3A; padding-bottom: 5px; padding-top: 5px;}
+#galeria h4{color: #9FEA00; padding-left: 5px; padding-top: 5px;}
+#galeria p{color: #FFFFFF; padding-left: 5px; padding-bottom: 5px;}
+
+
+
+
+/* Sección 4 (noticias.html)*/
+#seccion4 {position: relative; height: 1040px;}
+
+/* Noticias de la sección 4 */
+#contenido-noticias {position: absolute; top: 9px; left: 232px; background: url(../img/caja-comodin.png); background-repeat: no-repeat; background-size: 700px 1020px; width: 710px; height: 1020px; padding-top: 5px; padding-left: 4px;}
+#notic img{padding-left: 190px; width: 310px; height: 150px;}
+#notic header{width: 693px; height: 25px;}
+#notic h1{color: #7E6F3A; padding-bottom: 5px; padding-top: 5px;}
+#notic h4{color: #9FEA00; padding-left: 5px; padding-top: 5px; padding-bottom: 5px;}
+#notic p{color: #FFFFFF; padding-left: 5px; padding-bottom: 8px; padding-right: 15px;}
+
+
+
+
+/* Sección  5 (entrevistas.html)*/
+#seccion5 {position: relative; height: 700px;}
+
+/* Entrevistas de la sección 5*/
+#contenido-entrevistas {position: absolute; top: 9px; left: 232px; background: url(../img/caja-comodin.png); background-repeat: no-repeat; background-size: 700px 670px; width: 710px; height: 670px; padding-top: 5px; padding-left: 4px;}
+#entre img{padding-left: 20px; width: 150px; height: 150px;}
+#entre header{width: 693px; height: 25px;}
+#entre h1{color: #7E6F3A; padding-bottom: 5px; padding-top: 5px;}
+.pie {float:left;  margin:20px;}
+.pie img{display: block; margin: 0 auto;}
+.pie p{text-align:center; font-weight:bold; font-size: 14px;}
+
+
+
+
+/* Sección 6 (socios.html) */
+#seccion6 {position: relative; height: 700px;}
+
+/* Socios de la sección 6 */
+#contenido-socios {position: absolute; top: 9px; left: 232px; background: url(../img/caja-comodin.png); background-repeat: no-repeat; background-size: 700px 670px; width: 710px; height: 670px; padding-top: 5px; padding-left: 4px;}
+#contenido-socios header{width: 693px; height: 25px;}
+#contenido-socios h1{color: #7E6F3A; padding-bottom: 5px; padding-top: 5px;}
+
+/* Formulario de la sección 6 */
+.formulario{margin: 8px; padding-left: 30px; padding-right: 30px; padding-bottom: 30px;}
+.formulario h2{padding-bottom: 8px;}
+form label{display: block; width: 80px;}
+form .caja{display: inline-block; width: 250px; margin-bottom: 10px; overflow: hidden; padding: 4px; border: 1px solid #6E6E6E; font-family: sans-serif;}
+.boton_form {text-shadow: 0px 1px rgba(0, 0, 0, 0.2); text-align:center; text-decoration: none; font-family: sans-serif; display:inline-block; color: #FFFFFF; background: #6E6E6E; padding: 6px 20px; margin: 10px 5px; white-space: nowrap; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 10px;}
+.verde{background: #9FEA00; color: #000000; font-weight: bold; border: 1px solid #534D7A; width: 180px;}
+.verde:hover{background: #9FF781; color: #000000; font-weight: bold;}
+
+
+
+
+/* Sección 7 (nombre-jugador.html) */
+#seccion7 {position: relative; height: 700px;}
+
+/* Jugadores de la sección 7 */
+#contenido-jugadores {position: absolute; top: 9px; left: 232px; background: url(../img/caja-comodin.png); background-repeat: no-repeat; background-size: 700px 670px; width: 710px; height: 670px; padding-top: 5px; padding-left: 4px;}
+#contenido-jugadores header{width: 693px; height: 25px; padding-bottom: 8px;}
+#contenido-jugadores h1, h3{color: #7E6F3A; padding-bottom: 5px; padding-top: 5px;}
+.ita {font-style: italic;}
+.destacado {color: #9FEA00;}
+.cuerpo-entrevista {padding-left: 190px; padding-top: 40px; padding-bottom: 40px;}
+.cuerpo-entrevista p{width: 300px; text-align: justify; padding-bottom: 8px;}
+
+/* Tabla de la sección 7 */
+table, td, th {width: 650px; border: 1px solid black; margin: 0 auto; margin-bottom: 20px; margin-left: 20px; margin-top: 8px;}
+table td{text-align: center; padding: 5px;}
+table tr{text-align: center;}
+table th{background-color: #9FEA00;}
+table img{width: 220px;height: 180px;border: 2px solid black}
+.col_tit{background-color: #000000; font-weight: bold;}
+
+
+
+
+/* Pie de página*/
+.footer{border: 1px solid black; font-size:12px; position:relative; clear:both; color: #9FEA00; text-align:center; padding: 30px;}
+

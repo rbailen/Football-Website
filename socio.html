@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<HTML>
+
+  <head>
+    <title>Real Madrid CF | Web Oficial</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Toda la actualidad sobre el Real Madrid Club de Fútbol.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" CONTENT="Ramón Bailén Sánchez">
+    <meta name="keywords" content="Real Madrid, Madrid, fútbol, deporte, noticias, información, resultados, historia">
+    <meta name="locality" content="Madrid, España, U.E." />
+    <meta name="lang" content="es">
+    <meta name="revisit-after" content="1 days">
+    <meta name="category" content="Spanish, Spain, Fútbol">
+
+    <!-- Declaración de fichero de estilos -->
+    <link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+
+    <!-- Declaración de fichero JavaScript-->
+	<script type="text/javascript" src="js/archivo.js"></script>
+	
+  </head>
+
+  <body>
+    <!-- Div que contiene la página principal-->
+    <div class="contenedor">
+
+        <header>
+          <!-- Div que contiene la cabecera-->
+          <div class="cabecera">
+            <img src="img/header.jpg" alt="Imagen de cabecera" title="Imagen de cabecera">
+          </div>
+        </header>
+
+        <!-- Sección 6 -->
+        <section id="seccion6">
+
+              <!-- Menú -->
+              <nav id="menu">
+                <ul>
+                  <li class="active">
+                    <div class="enlace"><a href="index.html">Índice</a></div>
+                  </li>
+                  <li>
+                    <div class="enlace"><a href="galeria.html">Galería</a></div>
+                  </li>
+                  <li>
+                    <div class="enlace"><a href="noticias.html">Noticias</a></div>
+                  </li>
+                  <li>
+                    <div class="enlace"><a href="entrevistas.html">Entrevistas</a></div>
+                  </li>
+                  <li>
+                    <div class="enlace"><a href="socio.html">Hazte socio</a></div>
+                  </li>
+                </ul>
+              </nav>
+
+
+               <!-- Contenido de las entrevistas -->
+              <div id="contenido-socios">
+
+              	<!-- Socios -->
+              	   <article>
+						<header>
+							<h1>Hazte socio</h1>
+						</header>
+
+						<form name="formulario" class="formulario" method="post" action="">
+								<h2>Rellena los siguientes campos:</h2>
+
+								<label>Nombre:</label><input type="text" name="nombre" class="caja" maxlength="50" size="40" id="nombre" value="" placeholder="Nombre" required/>
+								<label>Dirección:</label><input type="text" name="direccion" class="caja" maxlength="50" size="40" id="direccion" value="" placeholder="Dirección" required/>
+								<label>Teléfono:</label><input type="text" name="phone" class="caja" maxlength="50" size="40" id="phone" value="" placeholder="Teléfono" required/>
+								<label>Edad:</label><input type="text" name="edad" class="caja" maxlength="50" size="40" id="edad" value="" placeholder="Edad" required/>
+								<label>Email:</label><input type="text" name="email" class="caja" maxlength="50" size="40" id="email" value="" placeholder="Email" required/><br/>
+
+						    <h4>Desea recibir información de:</h4>
+						    Partidos<input type="checkbox" name="partidos" id="ch1"/><br/>
+							  Merchandaising<input type="checkbox" name="merchandaising" id="ch2"/><br/>
+								Resultados<input type="checkbox" name="resultados" id="ch3"/><br/>
+								Ofertas<input type="checkbox" name="ofertas" id="ch4"/><br/>
+								Viajes<input type="checkbox" name="viajes" id="ch5"/><br/>
+								Seleccionar todos<input type="checkbox" name="selector" id="selector" onclick="seleccionarTodos(this.checked)"/><br/><br/>
+
+								<input type="submit" name="enviar" value="ENVIAR FORMULARIO" class="boton_form verde"/>
+								<input type="reset" name="borrar" value="BORRAR FORMULARIO" class="boton_form verde" />
+							</form>		
+					</article>
+              </div>
+        </section>
+			
+		<!-- Pie de página -->
+		<footer>
+			<!-- Div que contiene el pie de página-->
+			<div class="footer">
+			    :: Ramón Bailén Sánchez :: Ejercicio Final :: Todos los derechos reservados
+			</div>
+		</footer>
+		  
+	</div>
+	</body>
+
+</HTML>
